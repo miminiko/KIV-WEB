@@ -111,7 +111,7 @@
  * hmac-sha1,
  * hmac-sha1-96,
  * hmac-ripemd160,
- * hmac-ripemd160@openssh.com, and
+ * hmac-ripemd160@openssh.controler, and
  * none**
  * </td>
  * </tr>

@@ -23,10 +23,10 @@
                 </div>
                 <div >
                     <ul >
-                        <li ><a href="com/login.php">Home</a></li>
+                        <li ><a href="controler/login.ctrl.php">Home</a></li>
                     <li>Category</li>
-                    <li><a href="com/login.php">Log in<span class="sr-only">(current)</span></a></li>
-                    <li><a href="com/registration.php">Registration<span class="sr-only">(current)</span></a></li>
+                    <li><a href="controler/login.ctrl.php">Log in<span class="sr-only">(current)</span></a></li>
+                    <li><a href="controler/registration.ctrl.php">Registration<span class="sr-only">(current)</span></a></li>
                     <li>Contact</li>
                     </ul>
                 </div>

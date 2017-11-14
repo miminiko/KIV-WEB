@@ -1,8 +1,16 @@
-#authornews {
-    color: blue;
+comment-message{
+    width: 300px;
+    text-align: justify;
+    padding-bottom: 20px;
 }
 
-#datenews {
-
-
+news_template{
+    padding-bottom: 40px;
+    width: 80%;
+    text-align: justify;
 }
+
+image_news_template{
+    padding-bottom: 20px;
+}
+

@@ -173,7 +173,7 @@ function posix_getsid ($pid) {}
  * version - operating system version (e.g. #4 Tue Jul 20
  * 17:01:36 MEST 1999)
  * machine - system architecture (e.g. i586)
- * domainname - DNS domainname (e.g. example.com)
+ * domainname - DNS domainname (e.g. example.controler)
  * </p>
  * <p>
  * domainname is a GNU extension and not part of POSIX.1, so this

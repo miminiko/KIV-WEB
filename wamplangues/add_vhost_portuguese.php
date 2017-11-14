@@ -10,7 +10,7 @@ $langues = array(
 	'FileNotWritable' => 'The file <code>%s</code> is not writable',
 	'FileNotWritable' => 'O Arquivo <code>%s</code> não é gravável',
 	'DirNotExists' => '<code>%s</code> não existe ou não é um diretório',
-	'NotCleaned' => 'O arquivo <code>%s</code> não foi entendido. Siga os exemplos de VirtualHost como: dummy-host.example.com',
+	'NotCleaned' => 'O arquivo <code>%s</code> não foi entendido. Siga os exemplos de VirtualHost como: dummy-host.example.controler',
 	'NoVirtualHost' => 'Não há VirtualHost definida em <code>%s</code><br> Ele deve ter pelo menos o VirtualHost para localhost.',		'NoFirst' => 'The first VirtualHost must be <code>localhost</code> in <code>%s</code> file',
 	'ServerNameInvalid' => 'O ServerName <code>%s</code> é Inválido.',
 	'VirtualHostName' => 'Digite o Nome do <code>Virtual Host</code> Sem characteres especiais (éçëñ) - Sem espaços - Sem underscore(_)',

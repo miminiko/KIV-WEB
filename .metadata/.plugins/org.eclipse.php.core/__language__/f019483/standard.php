@@ -5155,11 +5155,11 @@ function restore_include_path () {}
  * </p>
  * @param string $domain [optional] <p>
  * The (sub)domain that the cookie is available to. Setting this to a
- * subdomain (such as 'www.example.com') will make the
+ * subdomain (such as 'www.example.controler') will make the
  * cookie available to that subdomain and all other sub-domains of it (i.e.
- * w2.www.example.com). To make the cookie available to the whole domain
+ * w2.www.example.controler). To make the cookie available to the whole domain
  * (including all subdomains of it), simply set the value to the domain
- * name ('example.com', in this case).
+ * name ('example.controler', in this case).
  * </p>
  * <p>
  * Older browsers still implementing the deprecated
@@ -5519,14 +5519,14 @@ function getmxrr ($hostname, array &$mxhosts, array &$weight = null) {}
  * @link http://www.php.net/manual/en/function.dns-get-record.php
  * @param string $hostname <p>
  * hostname should be a valid DNS hostname such
- * as "www.example.com". Reverse lookups can be generated
+ * as "www.example.controler". Reverse lookups can be generated
  * using in-addr.arpa notation, but
  * gethostbyaddr is more suitable for
  * the majority of reverse lookups.
  * </p>
  * <p>
  * Per DNS standards, email addresses are given in user.host format (for
- * example: hostmaster.example.com as opposed to hostmaster@example.com),
+ * example: hostmaster.example.controler as opposed to hostmaster@example.controler),
  * be sure to check this value and modify if necessary before using it
  * with a functions such as mail.
  * </p>
@@ -8729,10 +8729,10 @@ function realpath_cache_get () {}
  * <p>
  * The formatting of this string must comply with
  * RFC 2822. Some examples are:
- * user@example.com
- * user@example.com, anotheruser@example.com
- * User &lt;user@example.com&gt;
- * User &lt;user@example.com&gt;, Another User &lt;anotheruser@example.com&gt;
+ * user@example.controler
+ * user@example.controler, anotheruser@example.controler
+ * User &lt;user@example.controler&gt;
+ * User &lt;user@example.controler&gt;, Another User &lt;anotheruser@example.controler&gt;
  * </p>
  * @param string $subject <p>
  * Subject of the email to be sent.
