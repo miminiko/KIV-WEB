@@ -31,6 +31,10 @@
             <?php
         }
 
+        /***
+         * forma pro pridani prispevku
+         * @param $category
+         */
         function getFormForNews($category){
 
             ?>
@@ -84,6 +88,11 @@
             <?php
         }
 
+        /***
+         * forma pro zmenu prispevku authorem
+         * @param $news
+         * @param $category
+         */
         function setNews($news, $category){
 //            echo '<pre>', print_r($news, true), '</pre>';
             ?>

@@ -6,7 +6,10 @@
        function __construct(){
 		  @session_start();
 	   }
-       
+
+        /***
+         * template pro uvitani uzivatele
+         */
         function infoUser(){
            if($_SESSION["user"]["type_id"] !=  1){
            ?>
@@ -26,7 +29,11 @@
                <?php
            }
         }
-        
+
+        /***
+         * forma pro prihlaseni uzivatele
+         * @param $alert
+         */
         function logIn($alert){
             if(!$alert){
                 ?>

@@ -7,6 +7,7 @@ $db = new MyDB();
 $home = new viewNews();
 $action = @$_REQUEST["action"];
 
+//publikace prispevku adminem
 if(isset($_POST["publish_news"])){
     $news_id = $_POST['news_id'];
     if($db->publishNews($news_id)){
@@ -19,6 +20,8 @@ if(isset($_POST["publish_news"])){
 <?php
     }
 }
+
+//pridani commenta
 if(isset($_POST["post_comment"])){
     $news_id = $_POST['news_id'];
     $user_id = $_SESSION["user"]["id"];
@@ -31,4 +34,8 @@ if(isset($_POST["post_comment"])){
 $idNews = @$_REQUEST["newsid"];
 $home->getNewsTemplate($db->getOneNewsWithArrayComment($idNews), $db->getAllCommentByNewsId($idNews));
 
+
+$db->close();
+unset($db);
+unset($home);
 ?>

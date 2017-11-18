@@ -15,6 +15,7 @@ $userInfo = new userprocess();
 $action = @$_REQUEST["action"];
 $allIsOk = true;
 
+///zmena uzivatelskych udaj
 if($action == "edit_user_info"){
     $allIsOk = false;
     $userInfo ->setUserInfoTemplate();
@@ -89,9 +90,27 @@ if($action == "edit_user_info"){
         $_SESSION["user"] = $db ->getAllInfoUsersByID($_SESSION["user"]["id"]);
     }
 }
+
+/// hodnoceni uzivatelem prispevku
+if(isset($_POST["save_chose"])){
+    $news_id = $_REQUEST["news_id"];
+    $review_news_id = $_REQUEST["review_news_id"];
+    $quality = $_REQUEST["selectQuality".$news_id];
+    $style = $_REQUEST["selectStyle".$news_id];
+    $actualite = $_REQUEST["selectActualite".$news_id];
+    if(!($db->addResultUserReview($review_news_id, $quality, $style, $actualite))){
+        //error
+    }
+}
+
+//template accounta uzivatele
 if($allIsOk){
-    $userInfo ->getUserMainInfo($db->getNewsByUserId($_SESSION["user"]["id"]));
+    $id_user = $_SESSION["user"]["id"];
+    $userInfo ->getUserMainInfo($db->getNewsByUserId($id_user), $db->getAllNewsReviewByUserId($id_user));
 }
 
 
+$db->close();
+unset($db);
+unset($userInfo);
 ?>

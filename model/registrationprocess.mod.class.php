@@ -6,6 +6,9 @@
             @session_start();
         }
 
+        /***
+         * hlaska pro nove uzivatele
+         */
         function infoUser(){
             ?>
             <div class="jumbotron">
@@ -17,6 +20,9 @@
             <?php
         }
 
+        /***
+         * forma pro registrace novych uzivatele
+         */
         function getFormRegistration(){
             ?>
             <div class="row">

@@ -10,6 +10,11 @@
             @session_start();
         }
 
+        /***
+         * template prispevku
+         * @param $news
+         * @param $comment
+         */
         function getNewsTemplate($news, $comment){
             $date=date_create($news['date']);
 
@@ -53,54 +58,65 @@
 
             <?php
 //                echo '<pre>', print_r($news, true), '</pre>';
-            if(isset($_SESSION["user"])){
-            ?>
-                <form action="" method="post" class="form-horizontal">
-                    <fieldset>
-                        <legend>Add a comment</legend>
-                        <div class="form-group">
-                            <div class="col-lg-4">
-                                <textarea class="form-control" rows="3" id="textArea" name="text_comment"></textarea>
+
+////pridani commentu jenom v pripade jestli prispevek je public
+            if($news["public"] == 1){
+
+                if(isset($_SESSION["user"])){
+                    ?>
+                    <form action="" method="post" class="form-horizontal">
+                        <fieldset>
+                            <legend>Add a comment</legend>
+                            <div class="form-group">
+                                <div class="col-lg-4">
+                                    <textarea class="form-control" rows="3" id="textArea" name="text_comment"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-lg-10 col-lg-offset-2">
+                                    <form method="post" class="table_content_form">
+                                        <button type="submit" class="btn btn-success" name="post_comment">Post a comment</button>
+                                        <input type="hidden" name="news_id" value="<?php echo $news['id'] ?>"/>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </fieldset>
+                    </form>
+                    <?php
+                }
+
+                foreach ($comment as $item){
+                    $date_comment = date_create($item["date_comment"]);
+
+                    ?>
+                    <div class="row">
+
+                        <!--                <div class="comment_item">-->
+                        <div class="col-lg-8">
+
+                            <div class="comment_head">
+                                <span class="text-muted"><?php echo date_format($date_comment, 'd.m.Y H:i')?></span>
+                                <span  class="text-success"><?php echo $item["login"]?></span>
+                            </div>
+                            <div class="comment-message">
+                                <?php echo $item["comment"]?>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <div class="col-lg-10 col-lg-offset-2">
-                                <form method="post" class="table_content_form">
-                                    <button type="submit" class="btn btn-success" name="post_comment">Post a comment</button>
-                                    <input type="hidden" name="news_id" value="<?php echo $news['id'] ?>"/>
-                                </form>
-                            </div>
-                        </div>
+                        <!--                </div>-->
+                    </div>
 
-                    </fieldset>
-                </form>
-            <?php
+                    <?php
+                }
+
             }
 
-            foreach ($comment as $item){
-                $date_comment = date_create($item["date_comment"]);
-
-                ?>
-            <div class="row">
-
-<!--                <div class="comment_item">-->
-                   <div class="col-lg-8">
-
-                    <div class="comment_head">
-                        <span class="text-muted"><?php echo date_format($date_comment, 'd.m.Y H:i')?></span>
-                        <span  class="text-success"><?php echo $item["login"]?></span>
-                    </div>
-                    <div class="comment-message">
-                        <?php echo $item["comment"]?>
-                    </div>
-                   </div>
-<!--                </div>-->
-            </div>
-
-                <?php
-            }
         }
 
+        /***
+         * mala predstava prispevku
+         * @param $arrayNews
+         */
         function viewSmallNews($arrayNews){
             ?>
             <div class="posts">

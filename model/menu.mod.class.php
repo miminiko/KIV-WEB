@@ -14,7 +14,7 @@ class myMenu {
             "admin" => "Admin"
         );
         
-        /* return name page as title */
+        /* vrati nazev page as title */
         function namepage($page){
             $name = "";
             if ($this->pages != null){
@@ -26,26 +26,31 @@ class myMenu {
             }
             return $name;
         }
-        ///!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        function getmenu($page){
-            $menu = "";
-            if ($this->pages != null){
-    			foreach ($this->pages as $key => $title) {
-    				if ($page == $key) $active_pom = "class='active'";
-    				else $active_pom = "";
-    				$menu .= " <li ".$active_pom." ><a href='index.php?page=$key'>$title</a></li>";
-    			}
-            }
-            return $menu;
-        }
+
+//    /***
+//     * vrati menu podle uzivatele
+//     * @param $page
+//     * @return string
+//     */
+//        function getmenu($page){
+//            $menu = "";
+//            if ($this->pages != null){
+//    			foreach ($this->pages as $key => $title) {
+//    				if ($page == $key) $active_pom = "class='active'";
+//    				else $active_pom = "";
+//    				$menu .= " <li ".$active_pom." ><a href='index.php?page=$key'>$title</a></li>";
+//    			}
+//            }
+//            return $menu;
+//        }
 
 
         /***
-         * vrati standartni startove
+         * vrati menu podle uzivate
          * @param $page
          * @param $type
          */
-        function getMenuByUser( $category){
+        function getMenuByUser($category){
             ?>
 
 <div class="container">

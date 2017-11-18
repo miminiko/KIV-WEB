@@ -8,7 +8,7 @@ $registration = new registrationprocess();
 
 $action = @$_REQUEST["action"];
 
-//$alert = true;
+//registrace novyho uzivatele
 if($action == "registration"){
 
     if($_REQUEST['pswNewUser'] != $_REQUEST['pswNewUser-repeat']){
@@ -38,8 +38,11 @@ if($action == "registration"){
     }
 }
 
+///jestli uzivatel neni prihlasen
 if(!isset($_SESSION["user"])){
     $registration->getFormRegistration();
+}else{
+    header('Location: http://localhost/index.php?page=404');
 }
 
 $db->close();

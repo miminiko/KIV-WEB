@@ -2,17 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad365c25-7e2c-49fc-9a0f-dbf025f6931a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/contact-lettering.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controler/Новый текстовый документ.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/css/custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/img/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/img/carboncostume.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/img/gridgum.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/img/logo-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/img/logo-nav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/img/refs/beautifulwebdesign.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/img/refs/eloquentjavascript.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/img/refs/htmlandcss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/img/shopify.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/img/stickers.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/img/tshirt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/js/bsa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/assets/less/custom.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/flatly/_bootswatch.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/flatly/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/flatly/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/flatly/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/flatly/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/flatly/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/flatly/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/flatly/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/superhero/_bootswatch.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/superhero/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/superhero/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/superhero/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/superhero/bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/superhero/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/superhero/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/superhero/variables.less" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controler/admin.ctrl.php" afterPath="$PROJECT_DIR$/controler/admin.ctrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controler/category.ctrl.php" afterPath="$PROJECT_DIR$/controler/category.ctrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controler/home.ctrl.php" afterPath="$PROJECT_DIR$/controler/home.ctrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controler/login.ctrl.php" afterPath="$PROJECT_DIR$/controler/login.ctrl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controler/newstemplate.ctrl.php" afterPath="$PROJECT_DIR$/controler/newstemplate.ctrl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mystyle.css" afterPath="$PROJECT_DIR$/css/mystyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controler/page.ctrl.php" afterPath="$PROJECT_DIR$/controler/page.ctrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controler/registration.ctrl.php" afterPath="$PROJECT_DIR$/controler/registration.ctrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controler/userconsole.ctrl.php" afterPath="$PROJECT_DIR$/controler/userconsole.ctrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sandstone/_bootswatch.scss" afterPath="$PROJECT_DIR$/css/sandstone/_bootswatch.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sandstone/_variables.scss" afterPath="$PROJECT_DIR$/css/sandstone/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sandstone/bootstrap.css" afterPath="$PROJECT_DIR$/css/sandstone/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sandstone/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/sandstone/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/database.mod.class.php" afterPath="$PROJECT_DIR$/model/database.mod.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/menu.mod.class.php" afterPath="$PROJECT_DIR$/model/menu.mod.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/opennews.mod.class.php" afterPath="$PROJECT_DIR$/model/opennews.mod.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sablon/sablon.html" afterPath="$PROJECT_DIR$/sablon/sablon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/registrationprocess.mod.class.php" afterPath="$PROJECT_DIR$/model/registrationprocess.mod.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/addnews.mod.class.php" afterPath="$PROJECT_DIR$/view/addnews.mod.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/admin.mod.class.php" afterPath="$PROJECT_DIR$/view/admin.mod.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/controler/contact.php" afterPath="$PROJECT_DIR$/view/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/loginprocess.class.php" afterPath="$PROJECT_DIR$/view/loginprocess.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/userprocess.mod.class.php" afterPath="$PROJECT_DIR$/view/userprocess.mod.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,99 +67,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="addnews.mod.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/addnews.mod.class.php">
+      <file leaf-file-name="userconsole.ctrl.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controler/userconsole.ctrl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="117" column="90" lean-forward="false" selection-start-line="117" selection-start-column="69" selection-end-line="117" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.mod.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/admin.mod.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="239" column="110" lean-forward="false" selection-start-line="239" selection-start-column="99" selection-end-line="239" selection-end-column="110" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.ctrl.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controler/admin.ctrl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="515">
+              <caret line="105" column="29" lean-forward="false" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
               <folding>
-                <element signature="e#1197#1204#1#HTML" expanded="true" />
+                <element signature="e#314#2621#0#PHP" expanded="false" />
+                <element signature="e#519#1222#0#PHP" expanded="false" />
+                <element signature="e#1270#1806#0#PHP" expanded="false" />
+                <element signature="e#1860#2469#0#PHP" expanded="false" />
+                <element signature="e#2658#3042#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.mod.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/database.mod.class.php">
+      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="182" column="23" lean-forward="false" selection-start-line="182" selection-start-column="13" selection-end-line="182" selection-end-column="23" />
+            <state relative-caret-position="68">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding>
-                <element signature="n#controlLoginForRepeat#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#setUsersLogin#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#setUsersEmail#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#setUsersPassword#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#controlLoginAndPassword#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#setTypeUser#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#setNews#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#add_news_review_to_user#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#addNewNews#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#addNewComment#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#addNewUser#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getAllCategory#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#controlNewLogin#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getAllUsers#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getOneNewsWithArrayComment#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getAllCommentByNewsId#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getNewsByUserId#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getInfoAboutNews#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#publishNews#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getCategoryById#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getNewsByCategoryId#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getNewsWithCountComment#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#getAllInfoUsersByID#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#close#0;n#MyDB#0;n#!!top" expanded="false" />
-                <element signature="n#run#0;n#MyDB#0;n#!!top" expanded="false" />
-                <marker date="1510690306251" expanded="true" signature="1712:1763" ph="SELECT login... user" />
-                <marker date="1510690306251" expanded="true" signature="2519:2576" ph="UPDATE user " />
-                <marker date="1510690306251" expanded="true" signature="3248:3305" ph="UPDATE user " />
-                <marker date="1510690306251" expanded="true" signature="3983:4046" ph="UPDATE user " />
-                <marker date="1510690306251" expanded="true" signature="5148:5205" ph="UPDATE user " />
-                <marker date="1510690306251" expanded="true" signature="5862:5901" ph="delete from " />
-                <marker date="1510690306251" expanded="true" signature="6496:6535" ph="delete from " />
-                <marker date="1510690306251" expanded="true" signature="7172:7296" ph="UPDATE news " />
-                <marker date="1510690306251" expanded="true" signature="8152:8177" ph="select * fro... review_news" />
-                <marker date="1510690306251" expanded="true" signature="8743:8790" ph="select * fro... review_news" />
-                <marker date="1510690306251" expanded="true" signature="8783:8790" ph="select comme... comment" />
-                <marker date="1510690306251" expanded="true" signature="9430:9513" ph="INSERT INTO review_news... " />
-                <marker date="1510690306251" expanded="true" signature="10213:10388" ph="INSERT INTO news... " />
-                <marker date="1510690306251" expanded="true" signature="11346:11476" ph="INSERT INTO user... " />
-                <marker date="1510690306251" expanded="true" signature="12324:12437" ph="INSERT INTO user... " />
-                <marker date="1510690306251" expanded="true" signature="13242:13264" ph="SELECT categ... category" />
-                <marker date="1510690306251" expanded="true" signature="13799:13821" ph="SELECT login... user" />
-                <marker date="1510690306251" expanded="true" signature="14582:14675" ph="SELECT user.... user" />
-                <marker date="1510690306251" expanded="true" signature="15314:15508" ph="SELECT title... " />
-                <marker date="1510690306251" expanded="true" signature="16356:16459" ph="select news.... " />
-                <marker date="1510690306251" expanded="true" signature="16356:16487" ph="select comme... comment" />
-                <marker date="1510690306251" expanded="true" signature="17105:17229" ph="select news.... " />
-                <marker date="1510690306251" expanded="true" signature="17837:18018" ph="SELECT news.... " />
-                <marker date="1510690306251" expanded="true" signature="18812:18854" ph="UPDATE news " />
-                <marker date="1510690306251" expanded="true" signature="19436:19478" ph="SELECT * FRO... category" />
-                <marker date="1510690306251" expanded="true" signature="20102:20311" ph="SELECT news.... " />
-                <marker date="1510690306251" expanded="true" signature="20102:20330" ph="SELECT news.... " />
-                <marker date="1510690306251" expanded="true" signature="20954:21142" ph="SELECT news.... " />
-                <marker date="1510690306251" expanded="true" signature="21949:22104" ph="select user.... user" />
-                <marker date="1510690306251" expanded="true" signature="22979:23134" ph="select * fro... user" />
+                <element signature="n#div#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/404.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addnews.mod.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/addnews.mod.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+              <folding>
+                <element signature="n#alertNewsWasAdded#0;n#news#0;n#!!top" expanded="false" />
+                <element signature="n#alertNewsWasEdited#0;n#news#0;n#!!top" expanded="false" />
+                <element signature="n#getFormForNews#0;n#news#0;n#!!top" expanded="false" />
+                <element signature="n#setNews#0;n#news#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.ctrl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controler/admin.ctrl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding>
+                <element signature="e#216#2478#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration.ctrl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controler/registration.ctrl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+              <folding>
+                <element signature="e#238#1068#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -132,9 +155,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>note</find>
-      <find>$_SESSION</find>
-      <find>page</find>
       <find>SELECT news.id, title, date</find>
       <find>image_</find>
       <find>news</find>
@@ -156,12 +176,15 @@
       <find>myMenu</find>
       <find>img</find>
       <find>FoxFo</find>
-      <find>delete</find>
       <find>userpassword</find>
       <find>edit_user_info</find>
       <find>select</find>
       <find>dele</find>
       <find>author_login</find>
+      <find>getAllNewsReviewByUserId</find>
+      <find>categ</find>
+      <find>delete</find>
+      <find>getmenu</find>
     </findStrings>
     <dirStrings>
       <dir>D:\programming\wamp64\www\cfg</dir>
@@ -197,25 +220,31 @@
         <option value="$PROJECT_DIR$/cfg/registrationprocess.mod.class.php" />
         <option value="$PROJECT_DIR$/cfg/registrationprocess.registrationprocess.class.php" />
         <option value="$PROJECT_DIR$/model/phpWrapper.mod.class.php" />
-        <option value="$PROJECT_DIR$/model/registrationprocess.mod.class.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/controler/registration.ctrl.php" />
-        <option value="$PROJECT_DIR$/controler/login.ctrl.php" />
-        <option value="$PROJECT_DIR$/view/loginprocess.class.php" />
-        <option value="$PROJECT_DIR$/view/userprocess.mod.class.php" />
-        <option value="$PROJECT_DIR$/controler/userconsole.ctrl.php" />
-        <option value="$PROJECT_DIR$/view/addnews.mod.class.php" />
         <option value="$PROJECT_DIR$/view/contact.php" />
-        <option value="$PROJECT_DIR$/controler/home.ctrl.php" />
-        <option value="$PROJECT_DIR$/model/menu.mod.class.php" />
-        <option value="$PROJECT_DIR$/css/mystyle.css" />
-        <option value="$PROJECT_DIR$/controler/newstemplate.ctrl.php" />
         <option value="$PROJECT_DIR$/view/404.php" />
         <option value="$PROJECT_DIR$/sablon/sablon.html" />
-        <option value="$PROJECT_DIR$/model/opennews.mod.class.php" />
+        <option value="$PROJECT_DIR$/css/mystyle.css" />
+        <option value="$PROJECT_DIR$/css/sandstone/_bootswatch.scss" />
+        <option value="$PROJECT_DIR$/css/sandstone/_variables.scss" />
+        <option value="$PROJECT_DIR$/css/sandstone/bootstrap.css" />
+        <option value="$PROJECT_DIR$/css/sandstone/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/model/menu.mod.class.php" />
         <option value="$PROJECT_DIR$/view/admin.mod.class.php" />
-        <option value="$PROJECT_DIR$/model/database.mod.class.php" />
         <option value="$PROJECT_DIR$/controler/admin.ctrl.php" />
+        <option value="$PROJECT_DIR$/controler/category.ctrl.php" />
+        <option value="$PROJECT_DIR$/controler/home.ctrl.php" />
+        <option value="$PROJECT_DIR$/controler/login.ctrl.php" />
+        <option value="$PROJECT_DIR$/view/loginprocess.class.php" />
+        <option value="$PROJECT_DIR$/model/database.mod.class.php" />
+        <option value="$PROJECT_DIR$/controler/newstemplate.ctrl.php" />
+        <option value="$PROJECT_DIR$/controler/page.ctrl.php" />
+        <option value="$PROJECT_DIR$/model/opennews.mod.class.php" />
+        <option value="$PROJECT_DIR$/controler/registration.ctrl.php" />
+        <option value="$PROJECT_DIR$/controler/userconsole.ctrl.php" />
+        <option value="$PROJECT_DIR$/model/registrationprocess.mod.class.php" />
+        <option value="$PROJECT_DIR$/view/addnews.mod.class.php" />
+        <option value="$PROJECT_DIR$/view/userprocess.mod.class.php" />
       </list>
     </option>
   </component>
@@ -226,9 +255,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
-    <option name="y" value="-95" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-52" />
+    <option name="y" value="28" />
     <option name="width" value="1343" />
     <option name="height" value="735" />
   </component>
@@ -255,31 +284,6 @@
             <path>
               <item name="www" type="b2602c69:ProjectViewProjectNode" />
               <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controler" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="model" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sablon" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -360,17 +364,21 @@
       <workItem from="1510425747695" duration="3957000" />
       <workItem from="1510477337423" duration="3784000" />
       <workItem from="1510661317363" duration="17257000" />
+      <workItem from="1510691386634" duration="3337000" />
+      <workItem from="1510780147207" duration="4840000" />
+      <workItem from="1510930149196" duration="3381000" />
+      <workItem from="1511020474737" duration="5478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161611000" />
+    <option name="totallyTimeSpent" value="178647000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-95" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21815519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -400,122 +408,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/controler/admin.ctrl.php</url>
-          <line>61</line>
+          <line>87</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/controler/admin.ctrl.php</url>
-          <line>62</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view/admin.mod.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controler/admin.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controler/login.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/database.mod.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4539">
-          <caret line="267" column="39" lean-forward="true" selection-start-line="267" selection-start-column="39" selection-end-line="267" selection-end-column="39" />
-          <folding>
-            <element signature="n#controlLoginForRepeat#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setUsersLogin#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setUsersEmail#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setUsersPassword#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#controlLoginAndPassword#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setTypeUser#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#add_news_review_to_user#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#addNewNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#addNewComment#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#addNewUser#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllCategory#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#controlNewLogin#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllUsers#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getOneNewsWithArrayComment#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllCommentByNewsId#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getNewsByUserId#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getInfoAboutNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#publishNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getCategoryById#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getNewsByCategoryId#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getNewsWithCountComment#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllInfoUsersByID#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#close#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#run#0;n#MyDB#0;n#!!top" expanded="false" />
-            <marker date="1510690306251" expanded="true" signature="1712:1763" ph="SELECT login... user" />
-            <marker date="1510690306251" expanded="true" signature="2519:2576" ph="UPDATE user " />
-            <marker date="1510690306251" expanded="true" signature="3248:3305" ph="UPDATE user " />
-            <marker date="1510690306251" expanded="true" signature="3983:4046" ph="UPDATE user " />
-            <marker date="1510690306251" expanded="true" signature="5148:5205" ph="UPDATE user " />
-            <marker date="1510690306251" expanded="true" signature="5862:5901" ph="delete from " />
-            <marker date="1510690306251" expanded="true" signature="6496:6535" ph="delete from " />
-            <marker date="1510690306251" expanded="true" signature="7172:7296" ph="UPDATE news " />
-            <marker date="1510690306251" expanded="true" signature="8152:8177" ph="select * fro... review_news" />
-            <marker date="1510690306251" expanded="true" signature="8743:8790" ph="select * fro... review_news" />
-            <marker date="1510690306251" expanded="true" signature="8783:8790" ph="select comme... comment" />
-            <marker date="1510690306251" expanded="true" signature="9430:9513" ph="INSERT INTO review_news... " />
-            <marker date="1510690306251" expanded="true" signature="10213:10388" ph="INSERT INTO news... " />
-            <marker date="1510690306251" expanded="true" signature="11346:11476" ph="INSERT INTO user... " />
-            <marker date="1510690306251" expanded="true" signature="12324:12437" ph="INSERT INTO user... " />
-            <marker date="1510690306251" expanded="true" signature="13242:13264" ph="SELECT categ... category" />
-            <marker date="1510690306251" expanded="true" signature="13799:13821" ph="SELECT login... user" />
-            <marker date="1510690306251" expanded="true" signature="14582:14675" ph="SELECT user.... user" />
-            <marker date="1510690306251" expanded="true" signature="15314:15508" ph="SELECT title... " />
-            <marker date="1510690306251" expanded="true" signature="16356:16459" ph="select news.... " />
-            <marker date="1510690306251" expanded="true" signature="16356:16487" ph="select comme... comment" />
-            <marker date="1510690306251" expanded="true" signature="17105:17229" ph="select news.... " />
-            <marker date="1510690306251" expanded="true" signature="17837:18018" ph="SELECT news.... " />
-            <marker date="1510690306251" expanded="true" signature="18812:18854" ph="UPDATE news " />
-            <marker date="1510690306251" expanded="true" signature="19436:19478" ph="SELECT * FRO... category" />
-            <marker date="1510690306251" expanded="true" signature="20102:20311" ph="SELECT news.... " />
-            <marker date="1510690306251" expanded="true" signature="20102:20330" ph="SELECT news.... " />
-            <marker date="1510690306251" expanded="true" signature="20954:21142" ph="SELECT news.... " />
-            <marker date="1510690306251" expanded="true" signature="21949:22104" ph="select user.... user" />
-            <marker date="1510690306251" expanded="true" signature="22979:23134" ph="select * fro... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controler/userconsole.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controler/home.ctrl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -551,61 +452,104 @@
         <state relative-caret-position="1258">
           <caret line="74" column="37" lean-forward="false" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="37" />
           <folding>
-            <element signature="n#controlLoginForRepeat#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setUsersLogin#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setUsersEmail#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setUsersPassword#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#controlLoginAndPassword#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setTypeUser#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#add_news_review_to_user#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#addNewNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#addNewComment#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#addNewUser#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllCategory#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#__construct#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#loginUserInDataBaze#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#1380#1478#0#PHP" expanded="false" />
             <element signature="n#controlNewLogin#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#2284#2384#0#PHP" expanded="false" />
+            <element signature="n#controlLoginForRepeat#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#3203#3312#0#PHP" expanded="false" />
+            <element signature="n#controlLoginAndPassword#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#3864#4053#0#PHP" expanded="false" />
+            <element signature="n#addResultUserReview#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#5069#5239#0#PHP" expanded="false" />
+            <element signature="n#add_news_review_to_user#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#6008#6181#0#PHP" expanded="false" />
+            <element signature="n#addNewNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#7333#7474#0#PHP" expanded="false" />
+            <element signature="n#addNewComment#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#8444#8593#0#PHP" expanded="false" />
+            <element signature="n#addNewUser#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#9730#9922#0#PHP" expanded="false" />
+            <element signature="n#getAllNewsReviewByUserId#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#10802#10871#0#PHP" expanded="false" />
+            <element signature="n#getAllNewsReview#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#11455#11558#0#PHP" expanded="false" />
+            <element signature="n#getNewsReviewByNewsId#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#12237#12307#0#PHP" expanded="false" />
+            <element signature="n#getAllCategory#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#13026#13105#0#PHP" expanded="false" />
             <element signature="n#getAllUsers#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getOneNewsWithArrayComment#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#13824#13907#0#PHP" expanded="false" />
+            <element signature="e#14963#15065#0#PHP" expanded="false" />
             <element signature="n#getAllCommentByNewsId#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#15830#15918#0#PHP" expanded="false" />
             <element signature="n#getNewsByUserId#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#getInfoAboutNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#publishNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getCategoryById#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#17634#17717#0#PHP" expanded="false" />
+            <element signature="e#18384#18474#0#PHP" expanded="false" />
             <element signature="n#getNewsByCategoryId#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#19329#19412#0#PHP" expanded="false" />
             <element signature="n#getNewsWithCountComment#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#20408#20506#0#PHP" expanded="false" />
             <element signature="n#getAllInfoUsersByID#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#21536#21638#0#PHP" expanded="false" />
+            <element signature="n#getAllInfoUsers#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#22908#23016#0#PHP" expanded="false" />
+            <element signature="n#setUsersLogin#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#23750#23866#0#PHP" expanded="false" />
+            <element signature="n#setUsersEmail#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#24600#24708#0#PHP" expanded="false" />
+            <element signature="n#setUsersPassword#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#25460#25600#0#PHP" expanded="false" />
+            <element signature="n#setTypeUser#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#26330#26512#0#PHP" expanded="false" />
+            <element signature="n#setNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#27542#27619#0#PHP" expanded="false" />
+            <element signature="n#publishNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#28487#28608#0#PHP" expanded="false" />
+            <element signature="n#deleteNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#29396#29523#0#PHP" expanded="false" />
+            <element signature="n#deleteUser#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#close#0;n#MyDB#0;n#!!top" expanded="false" />
             <element signature="n#run#0;n#MyDB#0;n#!!top" expanded="false" />
-            <marker date="1510690306251" expanded="true" signature="1712:1763" ph="SELECT login... user" />
-            <marker date="1510690306251" expanded="true" signature="2519:2576" ph="UPDATE user " />
-            <marker date="1510690306251" expanded="true" signature="3248:3305" ph="UPDATE user " />
-            <marker date="1510690306251" expanded="true" signature="3983:4046" ph="UPDATE user " />
-            <marker date="1510690306251" expanded="true" signature="5148:5205" ph="UPDATE user " />
-            <marker date="1510690306251" expanded="true" signature="5862:5901" ph="delete from " />
-            <marker date="1510690306251" expanded="true" signature="6496:6535" ph="delete from " />
-            <marker date="1510690306251" expanded="true" signature="7172:7296" ph="UPDATE news " />
-            <marker date="1510690306251" expanded="true" signature="8152:8177" ph="select * fro... review_news" />
-            <marker date="1510690306251" expanded="true" signature="8743:8790" ph="select * fro... review_news" />
-            <marker date="1510690306251" expanded="true" signature="8783:8790" ph="select comme... comment" />
-            <marker date="1510690306251" expanded="true" signature="9430:9513" ph="INSERT INTO review_news... " />
-            <marker date="1510690306251" expanded="true" signature="10213:10388" ph="INSERT INTO news... " />
-            <marker date="1510690306251" expanded="true" signature="11346:11476" ph="INSERT INTO user... " />
-            <marker date="1510690306251" expanded="true" signature="12324:12437" ph="INSERT INTO user... " />
-            <marker date="1510690306251" expanded="true" signature="13242:13264" ph="SELECT categ... category" />
-            <marker date="1510690306251" expanded="true" signature="13799:13821" ph="SELECT login... user" />
-            <marker date="1510690306251" expanded="true" signature="14582:14675" ph="SELECT user.... user" />
-            <marker date="1510690306251" expanded="true" signature="15314:15508" ph="SELECT title... " />
-            <marker date="1510690306251" expanded="true" signature="16356:16459" ph="select news.... " />
-            <marker date="1510690306251" expanded="true" signature="16356:16487" ph="select comme... comment" />
-            <marker date="1510690306251" expanded="true" signature="17105:17229" ph="select news.... " />
-            <marker date="1510690306251" expanded="true" signature="17837:18018" ph="SELECT news.... " />
-            <marker date="1510690306251" expanded="true" signature="18812:18854" ph="UPDATE news " />
-            <marker date="1510690306251" expanded="true" signature="19436:19478" ph="SELECT * FRO... category" />
-            <marker date="1510690306251" expanded="true" signature="20102:20311" ph="SELECT news.... " />
-            <marker date="1510690306251" expanded="true" signature="20102:20330" ph="SELECT news.... " />
-            <marker date="1510690306251" expanded="true" signature="20954:21142" ph="SELECT news.... " />
-            <marker date="1510690306251" expanded="true" signature="21949:22104" ph="select user.... user" />
-            <marker date="1510690306251" expanded="true" signature="22979:23134" ph="select * fro... user" />
+            <element signature="n#row#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#fetch#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#stop#0;n#MyDB#0;n#!!top" expanded="false" />
+            <marker date="1511024009252" expanded="true" signature="1576:1598" ph="SELECT login... user" />
+            <marker date="1511024009252" expanded="true" signature="2491:2542" ph="SELECT login... user" />
+            <marker date="1511024009252" expanded="true" signature="4187:4333" ph="UPDATE revie... " />
+            <marker date="1511024009252" expanded="true" signature="5350:5433" ph="INSERT INTO review_news... " />
+            <marker date="1511024009252" expanded="true" signature="6311:6486" ph="INSERT INTO news... " />
+            <marker date="1511024009252" expanded="true" signature="7590:7720" ph="INSERT INTO comment... " />
+            <marker date="1511024009252" expanded="true" signature="8714:8827" ph="INSERT INTO user... " />
+            <marker date="1511024009252" expanded="true" signature="10024:10267" ph="SELECT news.... news" />
+            <marker date="1511024009252" expanded="true" signature="10957:10982" ph="select * fro... review_news" />
+            <marker date="1511024009252" expanded="true" signature="11656:11703" ph="select * fro... review_news" />
+            <marker date="1511024009252" expanded="true" signature="12391:12588" ph="SELECT count... news" />
+            <marker date="1511024009252" expanded="true" signature="13186:13279" ph="SELECT user.... user" />
+            <marker date="1511024009252" expanded="true" signature="14006:14209" ph="SELECT news.... " />
+            <marker date="1511024009252" expanded="true" signature="15164:15295" ph="select comme... comment" />
+            <marker date="1511024009252" expanded="true" signature="16006:16130" ph="select news.... " />
+            <marker date="1511024009252" expanded="true" signature="16738:16919" ph="SELECT news.... " />
+            <marker date="1511024009252" expanded="true" signature="17805:17847" ph="SELECT * FRO... category" />
+            <marker date="1511024009252" expanded="true" signature="18566:18794" ph="SELECT news.... " />
+            <marker date="1511024009252" expanded="true" signature="19505:19693" ph="SELECT news.... " />
+            <marker date="1511024009252" expanded="true" signature="20602:20757" ph="select user.... user" />
+            <marker date="1511024009252" expanded="true" signature="21729:21884" ph="select user.... user" />
+            <marker date="1511024009252" expanded="true" signature="23117:23174" ph="UPDATE user " />
+            <marker date="1511024009252" expanded="true" signature="23967:24024" ph="UPDATE user " />
+            <marker date="1511024009252" expanded="true" signature="24815:24878" ph="UPDATE user " />
+            <marker date="1511024009252" expanded="true" signature="25699:25756" ph="UPDATE user " />
+            <marker date="1511024009252" expanded="true" signature="26643:26767" ph="UPDATE news " />
+            <marker date="1511024009252" expanded="true" signature="27703:27745" ph="UPDATE news " />
+            <marker date="1511024009252" expanded="true" signature="28696:28735" ph="delete from " />
+            <marker date="1511024009252" expanded="true" signature="28755:28814" ph="DELETE FROM " />
+            <marker date="1511024009252" expanded="true" signature="28834:28884" ph="DELETE FROM " />
+            <marker date="1511024009252" expanded="true" signature="29611:29650" ph="delete from " />
+            <marker date="1511024009252" expanded="true" signature="29670:29715" ph="DELETE FROM " />
+            <marker date="1511024009252" expanded="true" signature="29735:29794" ph="DELETE FROM " />
+            <marker date="1511024009252" expanded="true" signature="29814:29864" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -672,50 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/registrationprocess.mod.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/phpWrapper.mod.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controler/category.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controler/registration.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kiv-web-php/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,51 +630,309 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/contact.php">
+    <entry file="file://$PROJECT_DIR$/js/locales/ar.js" />
+    <entry file="file://$PROJECT_DIR$/js/ValidationFormScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/star-rating.css" />
+    <entry file="file://$PROJECT_DIR$/css/mystyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="16" column="113" lean-forward="false" selection-start-line="16" selection-start-column="113" selection-end-line="16" selection-end-column="113" />
-          <folding />
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/sandstone/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="6834" column="28" lean-forward="true" selection-start-line="6834" selection-start-column="28" selection-end-line="6834" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/locales/ar.js">
+    <entry file="file://$PROJECT_DIR$/controler/Новый текстовый документ.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sandstone/bootswatch.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ValidationFormScript.js">
+    <entry file="file://$PROJECT_DIR$/css/sandstone/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="666">
+          <caret line="11" column="144354" lean-forward="false" selection-start-line="11" selection-start-column="144354" selection-end-line="11" selection-end-column="144354" />
+          <folding>
+            <element signature="e#60118#60318#2" expanded="false" />
+            <element signature="e#60442#60591#2" expanded="false" />
+            <element signature="e#60739#60885#2" expanded="false" />
+            <element signature="e#61393#61556#1" expanded="false" />
+            <element signature="e#72103#72346#2" expanded="false" />
+            <element signature="e#73181#73430#2" expanded="false" />
+            <element signature="e#100557#100747#2" expanded="false" />
+            <element signature="e#100793#100983#2" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sandstone/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="8917" column="1" lean-forward="false" selection-start-line="8917" selection-start-column="1" selection-end-line="8917" selection-end-column="1" />
+          <folding>
+            <element signature="e#72749#72949#2" expanded="false" />
+            <element signature="e#73086#73235#2" expanded="false" />
+            <element signature="e#73401#73547#2" expanded="false" />
+            <element signature="e#74145#74308#1" expanded="false" />
+            <element signature="e#87135#87378#2" expanded="false" />
+            <element signature="e#88341#88590#2" expanded="false" />
+            <element signature="e#120492#120682#2" expanded="false" />
+            <element signature="e#120737#120927#2" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sandstone/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="140" column="0" lean-forward="true" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/star-rating.css">
+    <entry file="file://$PROJECT_DIR$/css/sandstone/_bootswatch.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="540">
+          <caret line="202" column="80" lean-forward="false" selection-start-line="202" selection-start-column="80" selection-end-line="202" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mystyle.css">
+    <entry file="file://$PROJECT_DIR$/css/sandstone/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controler/login.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#262#690#0#PHP" expanded="false" />
+            <element signature="e#851#996#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controler/home.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controler/category.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sablon/sablon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="62" lean-forward="false" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controler/newstemplate.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#306#1799#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="e#873#880#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controler/page.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="e#294#649#0#PHP" expanded="false" />
+            <element signature="e#670#897#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controler/admin.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding>
+            <element signature="e#216#2478#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/database.mod.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="438" column="118" lean-forward="false" selection-start-line="438" selection-start-column="111" selection-end-line="438" selection-end-column="118" />
+          <folding>
+            <element signature="n#__construct#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#loginUserInDataBaze#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#1380#1478#0#PHP" expanded="false" />
+            <element signature="n#controlNewLogin#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#2284#2384#0#PHP" expanded="false" />
+            <element signature="n#controlLoginForRepeat#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#3203#3312#0#PHP" expanded="false" />
+            <element signature="n#controlLoginAndPassword#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#3864#4053#0#PHP" expanded="false" />
+            <element signature="n#addResultUserReview#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#5069#5239#0#PHP" expanded="false" />
+            <element signature="n#add_news_review_to_user#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#6008#6181#0#PHP" expanded="false" />
+            <element signature="n#addNewNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#7333#7474#0#PHP" expanded="false" />
+            <element signature="n#addNewComment#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#8444#8593#0#PHP" expanded="false" />
+            <element signature="n#addNewUser#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#9730#9922#0#PHP" expanded="false" />
+            <element signature="n#getAllNewsReviewByUserId#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#10802#10871#0#PHP" expanded="false" />
+            <element signature="n#getAllNewsReview#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#11455#11558#0#PHP" expanded="false" />
+            <element signature="n#getNewsReviewByNewsId#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#12237#12307#0#PHP" expanded="false" />
+            <element signature="n#getAllCategory#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#13026#13105#0#PHP" expanded="false" />
+            <element signature="n#getAllUsers#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#13824#13907#0#PHP" expanded="false" />
+            <element signature="e#14963#15065#0#PHP" expanded="false" />
+            <element signature="n#getAllCommentByNewsId#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#15830#15918#0#PHP" expanded="false" />
+            <element signature="n#getNewsByUserId#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#getInfoAboutNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#17634#17717#0#PHP" expanded="false" />
+            <element signature="e#18384#18474#0#PHP" expanded="false" />
+            <element signature="n#getNewsByCategoryId#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#19329#19412#0#PHP" expanded="false" />
+            <element signature="n#getNewsWithCountComment#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#20408#20506#0#PHP" expanded="false" />
+            <element signature="n#getAllInfoUsersByID#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#21536#21638#0#PHP" expanded="false" />
+            <element signature="n#getAllInfoUsers#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#22908#23016#0#PHP" expanded="false" />
+            <element signature="n#setUsersLogin#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#23750#23866#0#PHP" expanded="false" />
+            <element signature="n#setUsersEmail#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#24600#24708#0#PHP" expanded="false" />
+            <element signature="n#setUsersPassword#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#25460#25600#0#PHP" expanded="false" />
+            <element signature="n#setTypeUser#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#26330#26512#0#PHP" expanded="false" />
+            <element signature="n#setNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#27542#27619#0#PHP" expanded="false" />
+            <element signature="n#publishNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#28487#28608#0#PHP" expanded="false" />
+            <element signature="n#deleteNews#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="e#29396#29523#0#PHP" expanded="false" />
+            <element signature="n#deleteUser#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#close#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#run#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#row#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#fetch#0;n#MyDB#0;n#!!top" expanded="false" />
+            <element signature="n#stop#0;n#MyDB#0;n#!!top" expanded="false" />
+            <marker date="1511024009252" expanded="true" signature="1576:1598" ph="SELECT login... user" />
+            <marker date="1511024009252" expanded="true" signature="2491:2542" ph="SELECT login... user" />
+            <marker date="1511024009252" expanded="true" signature="4187:4333" ph="UPDATE revie... " />
+            <marker date="1511024009252" expanded="true" signature="5350:5433" ph="INSERT INTO review_news... " />
+            <marker date="1511024009252" expanded="true" signature="6311:6486" ph="INSERT INTO news... " />
+            <marker date="1511024009252" expanded="true" signature="7590:7720" ph="INSERT INTO comment... " />
+            <marker date="1511024009252" expanded="true" signature="8714:8827" ph="INSERT INTO user... " />
+            <marker date="1511024009252" expanded="true" signature="10024:10267" ph="SELECT news.... news" />
+            <marker date="1511024009252" expanded="true" signature="10957:10982" ph="select * fro... review_news" />
+            <marker date="1511024009252" expanded="true" signature="11656:11703" ph="select * fro... review_news" />
+            <marker date="1511024009252" expanded="true" signature="12391:12588" ph="SELECT count... news" />
+            <marker date="1511024009252" expanded="true" signature="13186:13279" ph="SELECT user.... user" />
+            <marker date="1511024009252" expanded="true" signature="14006:14209" ph="SELECT news.... " />
+            <marker date="1511024009252" expanded="true" signature="15164:15295" ph="select comme... comment" />
+            <marker date="1511024009252" expanded="true" signature="16006:16130" ph="select news.... " />
+            <marker date="1511024009252" expanded="true" signature="16738:16919" ph="SELECT news.... " />
+            <marker date="1511024009252" expanded="true" signature="17805:17847" ph="SELECT * FRO... category" />
+            <marker date="1511024009252" expanded="true" signature="18566:18794" ph="SELECT news.... " />
+            <marker date="1511024009252" expanded="true" signature="19505:19693" ph="SELECT news.... " />
+            <marker date="1511024009252" expanded="true" signature="20602:20757" ph="select user.... user" />
+            <marker date="1511024009252" expanded="true" signature="21729:21884" ph="select user.... user" />
+            <marker date="1511024009252" expanded="true" signature="23117:23174" ph="UPDATE user " />
+            <marker date="1511024009252" expanded="true" signature="23967:24024" ph="UPDATE user " />
+            <marker date="1511024009252" expanded="true" signature="24815:24878" ph="UPDATE user " />
+            <marker date="1511024009252" expanded="true" signature="25699:25756" ph="UPDATE user " />
+            <marker date="1511024009252" expanded="true" signature="26643:26767" ph="UPDATE news " />
+            <marker date="1511024009252" expanded="true" signature="27703:27745" ph="UPDATE news " />
+            <marker date="1511024009252" expanded="true" signature="28696:28735" ph="delete from " />
+            <marker date="1511024009252" expanded="true" signature="28755:28814" ph="DELETE FROM " />
+            <marker date="1511024009252" expanded="true" signature="28834:28884" ph="DELETE FROM " />
+            <marker date="1511024009252" expanded="true" signature="29611:29650" ph="delete from " />
+            <marker date="1511024009252" expanded="true" signature="29670:29715" ph="DELETE FROM " />
+            <marker date="1511024009252" expanded="true" signature="29735:29794" ph="DELETE FROM " />
+            <marker date="1511024009252" expanded="true" signature="29814:29864" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controler/registration.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="e#238#1068#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/opennews.mod.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="n#getNewsTemplate#0;n#viewNews#0;n#!!top" expanded="false" />
+            <element signature="n#viewSmallNews#0;n#viewNews#0;n#!!top" expanded="false" />
+            <element signature="n#viewSmallNewsByCategory#0;n#viewNews#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/phpWrapper.mod.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="n#phpWrapperFromFile#0;n#wrapper#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/registrationprocess.mod.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding>
+            <element signature="n#getFormRegistration#0;n#registrationprocess#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -782,175 +944,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sablon/sablon.html">
+    <entry file="file://$PROJECT_DIR$/view/addnews.mod.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controler/login.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/loginprocess.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="54" column="94" lean-forward="false" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controler/home.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/opennews.mod.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="136" column="53" lean-forward="false" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="53" />
+        <state relative-caret-position="289">
+          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
           <folding>
-            <element signature="e#498#527#0#HTML" expanded="false" />
-            <element signature="n#viewSmallNewsByCategory#0;n#viewNews#0;n#!!top" expanded="false" />
+            <element signature="n#alertNewsWasAdded#0;n#news#0;n#!!top" expanded="false" />
+            <element signature="n#alertNewsWasEdited#0;n#news#0;n#!!top" expanded="false" />
+            <element signature="n#getFormForNews#0;n#news#0;n#!!top" expanded="false" />
+            <element signature="n#setNews#0;n#news#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/menu.mod.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="985">
-          <caret line="94" column="37" lean-forward="true" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="544">
+          <caret line="51" column="11" lean-forward="true" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+          <folding>
+            <element signature="e#50#345#0#PHP" expanded="false" />
+            <element signature="n#namepage#0;n#myMenu#0;n#!!top" expanded="false" />
+            <element signature="n#getMenuByUser#0;n#myMenu#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controler/newstemplate.ctrl.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controler/userconsole.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        <state relative-caret-position="901">
+          <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/userprocess.mod.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controler/page.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/addnews.mod.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="117" column="90" lean-forward="false" selection-start-line="117" selection-start-column="69" selection-end-line="117" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/database.mod.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="182" column="23" lean-forward="false" selection-start-line="182" selection-start-column="13" selection-end-line="182" selection-end-column="23" />
+        <state relative-caret-position="323">
+          <caret line="220" column="38" lean-forward="false" selection-start-line="220" selection-start-column="38" selection-end-line="220" selection-end-column="38" />
           <folding>
-            <element signature="n#controlLoginForRepeat#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setUsersLogin#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setUsersEmail#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setUsersPassword#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#controlLoginAndPassword#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setTypeUser#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#setNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#add_news_review_to_user#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#addNewNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#addNewComment#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#addNewUser#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllCategory#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#controlNewLogin#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllUsers#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getOneNewsWithArrayComment#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllCommentByNewsId#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getNewsByUserId#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getInfoAboutNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#publishNews#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getCategoryById#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getNewsByCategoryId#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getNewsWithCountComment#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#getAllInfoUsersByID#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#close#0;n#MyDB#0;n#!!top" expanded="false" />
-            <element signature="n#run#0;n#MyDB#0;n#!!top" expanded="false" />
-            <marker date="1510690306251" expanded="true" signature="1712:1763" ph="SELECT login... user" />
-            <marker date="1510690306251" expanded="true" signature="2519:2576" ph="UPDATE user " />
-            <marker date="1510690306251" expanded="true" signature="3248:3305" ph="UPDATE user " />
-            <marker date="1510690306251" expanded="true" signature="3983:4046" ph="UPDATE user " />
-            <marker date="1510690306251" expanded="true" signature="5148:5205" ph="UPDATE user " />
-            <marker date="1510690306251" expanded="true" signature="5862:5901" ph="delete from " />
-            <marker date="1510690306251" expanded="true" signature="6496:6535" ph="delete from " />
-            <marker date="1510690306251" expanded="true" signature="7172:7296" ph="UPDATE news " />
-            <marker date="1510690306251" expanded="true" signature="8152:8177" ph="select * fro... review_news" />
-            <marker date="1510690306251" expanded="true" signature="8743:8790" ph="select * fro... review_news" />
-            <marker date="1510690306251" expanded="true" signature="8783:8790" ph="select comme... comment" />
-            <marker date="1510690306251" expanded="true" signature="9430:9513" ph="INSERT INTO review_news... " />
-            <marker date="1510690306251" expanded="true" signature="10213:10388" ph="INSERT INTO news... " />
-            <marker date="1510690306251" expanded="true" signature="11346:11476" ph="INSERT INTO user... " />
-            <marker date="1510690306251" expanded="true" signature="12324:12437" ph="INSERT INTO user... " />
-            <marker date="1510690306251" expanded="true" signature="13242:13264" ph="SELECT categ... category" />
-            <marker date="1510690306251" expanded="true" signature="13799:13821" ph="SELECT login... user" />
-            <marker date="1510690306251" expanded="true" signature="14582:14675" ph="SELECT user.... user" />
-            <marker date="1510690306251" expanded="true" signature="15314:15508" ph="SELECT title... " />
-            <marker date="1510690306251" expanded="true" signature="16356:16459" ph="select news.... " />
-            <marker date="1510690306251" expanded="true" signature="16356:16487" ph="select comme... comment" />
-            <marker date="1510690306251" expanded="true" signature="17105:17229" ph="select news.... " />
-            <marker date="1510690306251" expanded="true" signature="17837:18018" ph="SELECT news.... " />
-            <marker date="1510690306251" expanded="true" signature="18812:18854" ph="UPDATE news " />
-            <marker date="1510690306251" expanded="true" signature="19436:19478" ph="SELECT * FRO... category" />
-            <marker date="1510690306251" expanded="true" signature="20102:20311" ph="SELECT news.... " />
-            <marker date="1510690306251" expanded="true" signature="20102:20330" ph="SELECT news.... " />
-            <marker date="1510690306251" expanded="true" signature="20954:21142" ph="SELECT news.... " />
-            <marker date="1510690306251" expanded="true" signature="21949:22104" ph="select user.... user" />
-            <marker date="1510690306251" expanded="true" signature="22979:23134" ph="select * fro... user" />
+            <element signature="n#getUserMainInfo#0;n#userprocess#0;n#!!top" expanded="false" />
+            <element signature="n#setUserInfoTemplate#0;n#userprocess#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/loginprocess.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="n#infoUser#0;n#loginprocess#0;n#!!top" expanded="false" />
+            <element signature="n#logIn#0;n#loginprocess#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/admin.mod.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="239" column="110" lean-forward="false" selection-start-line="239" selection-start-column="99" selection-end-line="239" selection-end-column="110" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#186#363#0#PHP" expanded="false" />
+            <element signature="n#selection_users_for_review#0;n#admin#0;n#!!top" expanded="false" />
+            <element signature="e#2543#2695#0#PHP" expanded="false" />
+            <element signature="n#getAdminTables#0;n#admin#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controler/admin.ctrl.php">
+    <entry file="file://$PROJECT_DIR$/controler/userconsole.ctrl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="515">
+          <caret line="105" column="29" lean-forward="false" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
           <folding>
-            <element signature="e#1197#1204#1#HTML" expanded="true" />
+            <element signature="e#314#2621#0#PHP" expanded="false" />
+            <element signature="e#519#1222#0#PHP" expanded="false" />
+            <element signature="e#1270#1806#0#PHP" expanded="false" />
+            <element signature="e#1860#2469#0#PHP" expanded="false" />
+            <element signature="e#2658#3042#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
