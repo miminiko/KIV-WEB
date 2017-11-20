@@ -202,10 +202,10 @@ WHERE review_news.id_review_news=:news_review_id';
      * @param $imageNews
      * @return bool
      */
-    function addNewNews( $title, $text, $user_id, $category_id, $imageNews){
+    function addNewNews( $title, $text, $user_id, $category_id, $imageNews, $fileName){
         $mysql_pdo_error = false;
-        $query = 'INSERT INTO news (title, date, note, user_id, category_id, public, image_news_url)
-            VALUES (:title, :date_today, :text, :user_id, :category_id, 0, :image_news_url );';
+        $query = 'INSERT INTO news (title, date, note, user_id, category_id, public, image_news_url, file_url)
+            VALUES (:title, :date_today, :text, :user_id, :category_id, 0, :image_news_url, :fileName );';
         $sth = $this->conn->prepare($query);
         $sth->bindValue(':title', $title, PDO::PARAM_STR);
         $sth->bindValue(':date_today', date("Y-m-d H:i:s"), PDO::PARAM_STR);
@@ -213,6 +213,8 @@ WHERE review_news.id_review_news=:news_review_id';
         $sth->bindValue(':user_id', $user_id, PDO::PARAM_STR);
         $sth->bindValue(':category_id', $category_id, PDO::PARAM_INT);
         $sth->bindValue(':image_news_url', $imageNews, PDO::PARAM_STR);
+        $sth->bindValue(':fileName', $fileName, PDO::PARAM_STR);
+
         $sth->execute();//insert to db
         $errors = $sth->errorInfo();
         if ($errors[0] + 0 > 0){
@@ -436,7 +438,7 @@ where user.type_id=type_user.id;";
      */
     function getOneNewsWithArrayComment($id){
         $mysql_pdo_error = false;
-        $query = "SELECT news.id, title, date, note, public, image_news_url,  login, category_name, image_url, user_id from news, user, category 
+        $query = "SELECT news.id, title, date, note, public, image_news_url, file_url, login, category_name, image_url, user_id from news, user, category 
 where news.id=:id and news.user_id=user.id and news.category_id=category.id;";
 
         $sth = $this->conn->prepare($query);
@@ -495,7 +497,7 @@ user where news_id=:newsid and user.id=comment.user_id;";
      */
     function getNewsByUserId($id){
         $mysql_pdo_error = false;
-        $query = "select news.id , date, title, public, category_name from news, category 
+        $query = "select news.id , date, title, public, file_url, category_name from news, category 
 where user_id =:id and news.category_id=category.id;";
 
         $sth = $this->conn->prepare($query);
@@ -519,7 +521,7 @@ where user_id =:id and news.category_id=category.id;";
 
     function getInfoAboutNews(){
         $mysql_pdo_error = false;
-        $query = "SELECT news.id, title, date, note, public, image_news_url, login, category_name
+        $query = "SELECT news.id, title, date, note, public, image_news_url, file_url, login, category_name
 FROM  news, user,category where news.user_id = user.id and category.id=category_id order by date DESC ;";
 
         $sth = $this->conn->prepare($query);
@@ -577,7 +579,7 @@ FROM  news, user,category where news.user_id = user.id and category.id=category_
      */
     function getNewsByCategoryId($id){
         $mysql_pdo_error = false;
-        $query = "SELECT news.id, title, date, note, image_news_url, login, category_name 
+        $query = "SELECT news.id, title, date, note, image_news_url, file_url, login, category_name 
 FROM news, user, category where category_id=:id AND news.user_id=user.id AND news.public=1 AND category_id=category.id AND news.public=1 order by date DESC;";
 
         $sth = $this->conn->prepare($query);
@@ -605,7 +607,7 @@ FROM news, user, category where category_id=:id AND news.user_id=user.id AND new
      */
     function getNewsWithCountComment(){
         $mysql_pdo_error = false;
-        $query = "SELECT news.id, title, date, note, image_news_url, login, category_name
+        $query = "SELECT news.id, title, date, note, image_news_url, file_url, login, category_name
 FROM  news, user,category where public='1' and news.user_id = user.id and category.id=category_id order by date DESC ;";
 
         $sth = $this->conn->prepare($query);

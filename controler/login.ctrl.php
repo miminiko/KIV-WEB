@@ -31,7 +31,7 @@
     if(!isset($_SESSION["user"])){
         $logUser->logIn($alert);
     }else{
-        header('Location: http://localhost/index.php?page=404');
+//        header('Location: http://localhost/index.php?page=404');
     }
 
 $db->close();

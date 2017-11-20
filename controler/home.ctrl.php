@@ -5,6 +5,7 @@ include_once("/model/opennews.mod.class.php");
 
     $db = new MyDB();
     $home = new viewNews();
+    $home->slideBar();
     //zaplni home vsema prispevkama, ktery ma typ publish
     $home->viewSmallNews($db->getNewsWithCountComment());
 

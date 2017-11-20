@@ -102,8 +102,8 @@ class userprocess{
                     ?>
                     <a href='index.php?page=addnews&&newsid=<?php echo $item['id'] ?>' action="set_news">
                         <?php }else{ ?>
-                        <a href='index.php?page=page&&newsid=<?php echo $item['id'] ?>' action="open_news">
-                            <?php } ?>
+                            <a href='index.php?page=page&&newsid=<?php echo $item['id'] ?>' action="open_news">
+                                <?php } ?>
                             <?php echo $item['title'] ?></a>
                 </td>
                 <td>
@@ -112,8 +112,14 @@ class userprocess{
                         echo $publiting;
                     } else {
                         ?>
+                    <form method="post" class="table_content_form">
                         <a href='index.php?page=addnews&&newsid=<?php echo $item['id'] ?>' type="submit"
                            class="btn btn-success btn-xs" name="edit_news"><?php echo $publiting; ?> </a>
+                        <button type="submit"  class="btn btn-danger btn-xs"
+                                name="delete_news" data-toggle="modal"  >Delete</button>
+                        <input type="hidden" name="news_id" value="<?php echo $item['id'] ?>"/>
+                    </form>
+
                     <?php } ?>
                 </td>
             </tr>
