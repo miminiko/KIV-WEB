@@ -1,7 +1,7 @@
 <?php
 
 include_once("/model/database.mod.class.php");
-include_once("/model/registrationprocess.mod.class.php");
+include_once("/view/registrationprocess.mod.class.php");
 
 $db = new MyDB();
 $registration = new registrationprocess();
@@ -20,10 +20,11 @@ if($action == "registration"){
 
     }else{
         $loginNewUser = $_REQUEST['loginNewUser'];
-
+        //kontrola novyho loginu
         if($db->controlNewLogin($loginNewUser)){
             $emailNewUser = $_REQUEST['emailNewUser'];
             $pswNewUser = $_REQUEST['pswNewUser'];
+            //pridani uzivatele
             $db->addNewUser($loginNewUser, $emailNewUser, $pswNewUser);
             if($db->loginUserInDataBaze($loginNewUser, $pswNewUser)){
                 $registration->infoUser();
@@ -42,7 +43,7 @@ if($action == "registration"){
 if(!isset($_SESSION["user"])){
     $registration->getFormRegistration();
 }else{
-    header('Location: http://localhost/index.php?page=404');
+    header('Location: http://localhost/index.php?page=userconsole');
 }
 
 $db->close();

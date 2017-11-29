@@ -8,6 +8,7 @@
 include_once("/model/database.mod.class.php");
 include_once("/view/addnews.mod.class.php");
 
+
 $db = new MyDB();
 $news = new news();
 
@@ -24,41 +25,48 @@ if($id_user){
         $category = $_REQUEST['selectCategory'];
         $imageNews = $_REQUEST['imageNews'];
 
+        $namePDFfile= null;
+        $fileExist = true;
+
         $target_dir = "uploads/";
         $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
         $uploadOk = 1;
-        $result = "something";
+
         if(!empty($_FILES["fileToUpload"])){
             $fileToUpdate = $_FILES["fileToUpload"];
             if($fileToUpdate["error"]!== UPLOAD_ERR_OK){
-                echo "<p>An error occurred.</p>";
+                $fileExist = false;
             }
         }else{
-            $result = "nothing";
+            $fileExist = false;
         }
-        $name = preg_replace("/[^A-Z0-9._-]/i", "_", $fileToUpdate["name"]);
-
-        // don't overwrite an existing file
-        $i = 0;
-        $parts = pathinfo($name);
-        while (file_exists($target_dir . $name)) {
-            $i++;
-            $name = $parts["filename"] . "-" . $i . "." . $parts["extension"];
+        if($_FILES["fileToUpload"]["type"] != "application/pdf"){
+            echo "Sorry, only PDF files are allowed.";
+            $fileExist = false;
         }
 
-        // preserve file from temporary directory
-        $success = move_uploaded_file($fileToUpdate["tmp_name"],
-            $target_dir . $name);
-        if (!$success) {
-            echo "<p>Unable to save file.</p>";
-            exit;
+        if($fileExist){
+            $namePDFfile = preg_replace("/[^A-Z0-9._-]/i", "_", $fileToUpdate["name"]);
+            // don't overwrite an existing file
+            $i = 0;
+            $parts = pathinfo($namePDFfile);
+            while (file_exists($target_dir . $namePDFfile)) {
+                $i++;
+                $namePDFfile = $parts["filename"] . "-" . $i . "." . $parts["extension"];
+            }
+            // preserve file from temporary directory
+            $success = move_uploaded_file($fileToUpdate["tmp_name"],
+                $target_dir . $namePDFfile);
+            if (!$success) {
+                echo "<p>Unable to save file.</p>";
+                exit;
+            }
+            // set proper permissions on the new file
+            chmod($target_dir . $namePDFfile, 0644);
         }
-
-        // set proper permissions on the new file
-        chmod($target_dir . $name, 0644);
 
 //            echo '<pre>', print_r($_SESSION["user"], true), '</pre>';
-        if($db->addNewNews($newTitle, $newText, $user_id, $category, $imageNews, $name)){
+        if($db->addNewNews($newTitle, $newText, $user_id, $category, $imageNews, $namePDFfile)){
             $news->alertNewsWasAdded();
         }else{
             ?>
@@ -75,15 +83,13 @@ if($id_user){
         $category = $_REQUEST['selectCategory'];
         $imageNews = $_REQUEST['imageNews'];
 
-
-
-
         if($db->setNews($idNews, $newTitle, $newText, $category, $imageNews)){
             $news->alertNewsWasEdited();
         }
-    }else if($idNews ==  "" &&  @$_SESSION["user"]["id"]>0){
+    }else if($idNews ==  "" &&  @$_SESSION["user"]["id"]>0){//uzivatel smi pridat novy prispevek
         $news->getFormForNews($db -> getAllCategory());
-    }else{
+    }
+    else{
         $newsForSet = $db->getOneNewsWithArrayComment($idNews);
         ///kontrola aby uzivatel nemel pristup k cizim a jiz publikovanym prispevku
         if($newsForSet["public"]==0 && $newsForSet["user_id"] == $id_user){

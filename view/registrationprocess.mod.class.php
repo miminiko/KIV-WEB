@@ -30,7 +30,7 @@
                     <div class="well bs-component">
                         <form action="" method="post" class="form-horizontal">
                             <fieldset>
-                                <legend>Legend</legend>
+                                <legend>Registration</legend>
                                 <div class="form-group">
                                     <label for="inputEmail" class="col-lg-2 control-label"><b>Login</b></label>
                                     <div class="col-lg-10">

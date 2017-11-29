@@ -1,7 +1,7 @@
 ﻿<?php defined('INDEX') OR die('Прямой доступ к странице запрещён!');
 /* КОМПОНЕНТ СТРАНИЦЫ */
 include_once("/model/database.mod.class.php");
-include_once("/model/opennews.mod.class.php");
+include_once("/view/opennews.mod.class.php");
 
 $db = new MyDB();
 $home = new viewNews();
@@ -40,7 +40,7 @@ if(isset($_POST["download"])){
         header("Content-type: application/pdf");
         readfile($file_path);
     }else{
-?>
+        ?>
         <div class="alert alert-dismissible alert-danger">
             <button type="button" class="close" data-dismiss="alert">&times;</button>
             <strong>Ops! Something was wrong...</strong>

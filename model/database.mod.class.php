@@ -19,10 +19,18 @@ class MyDB{
     public $conn;
     
     function __construct (){
+
+        $dsn = 'mysql:host=localhost;dbname=db_web';
+        $user = 'root';
+        $password = '';
+
+
         // Create connection
         try { //https://www.w3schools.com/PhP/php_mysql_connect.asp
             $options = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',);
-            $this->conn = new PDO("mysql:host=localhost;dbname=db_web", 'root', '');
+//            $this->conn = new PDO("mysql:host=localhost;dbname=db_web", 'root', '');
+            $this->conn = new PDO($dsn,$user, $password);
+
             if(!isset($_SESSION))
             {
                 session_start();
@@ -820,8 +828,8 @@ FROM  news, user,category where public='1' and news.user_id = user.id and catego
      */
     function setNews($idNews, $newTitle, $newText, $category_id, $imageNews){
         $mysql_pdo_error = false;
-        $query = 'UPDATE news SET title=:title, note=:note, category_id=:category_id, image_news_url=:image_news_url
- WHERE news.id = :id_news;';
+        $query = 'UPDATE news SET title=:title, note=:note, category_id=:category_id, image_news_url=:image_news_url WHERE news.id = :id_news;';
+
         $sth = $this->conn->prepare($query);
         $sth->bindValue(':title', $newTitle, PDO::PARAM_STR);
         $sth->bindValue(':note', $newText, PDO::PARAM_STR);

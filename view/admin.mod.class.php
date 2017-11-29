@@ -260,12 +260,12 @@ class admin{
                                         <button type="submit"  class="btn btn-danger btn-xs" name="delete_news">delete </button>
                                         <input type="hidden" name="news_id" value="<?php echo $item['id'] ?>"/>
                                         <input type="hidden" name="author_login" value="<?php echo $item['login'] ?>"/>
-
                                     </form>
                                 </div>
                             </td>
                             <td>
-                                <?php echo $rating?>(<?php echo $count_users_for_rating?>/<?php echo $count_users?>)
+                                <?php $rating = number_format((float)$rating, 2, '.', '');
+                                echo $rating?>(<?php echo $count_users_for_rating?>/<?php echo $count_users?>)
                             </td>
                         </tr>
                     <?php }?>
@@ -329,95 +329,7 @@ class admin{
             </div>
         </div>
 
-<!--        <!-- Modal For Confirmation User -->-->
-<!--        --><?php //foreach ($users as $item) {
-////                echo "ID is" .$item['id'];
-//            ?>
-<!--            <div class="modal fade" id="modalConfirm--><?php //echo $item['id'] ?><!--" role="dialog">-->
-<!--                <div class="modal-dialog modal-lg">-->
-<!--                    <div class="modal-content">-->
-<!--                        <div class="modal-header">-->
-<!--                            <button type="button" class="close" data-dismiss="modal">&times;</button>-->
-<!--                            <h4 class="modal-title">Confirmation</h4>-->
-<!--                        </div>-->
-<!--                        <div class="modal-body">-->
-<!--                            <p>Do you really want to confirm user --><?php //echo  $item['login']?><!--?</p>-->
-<!--                        </div>-->
-<!--                        <div class="modal-footer">-->
-<!--                            <form action="" method="POST">-->
-<!--                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
-<!--                            <input type="hidden" name="action" value="confirmUser">-->
-<!--                            <button type="submit" class="btn btn-primary" data-dismiss="modal" name="--><?php //echo $item['id'] ?><!--">Confirm</button>-->
-<!--                            </form>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <!--            block user -->-->
-<!--            <div class="modal fade" id="modalBlock--><?php //echo $item['id'] ?><!--" role="dialog">-->
-<!--                <div class="modal-dialog modal-lg">-->
-<!--                    <div class="modal-content">-->
-<!--                        <div class="modal-header">-->
-<!--                            <button type="button" class="close" data-dismiss="modal">&times;</button>-->
-<!--                            <h4 class="modal-title">Confirmation</h4>-->
-<!--                        </div>-->
-<!--                        <div class="modal-body">-->
-<!--                            <p>Do you really want to block user --><?php //echo  $item['login']?><!--?</p>-->
-<!--                        </div>-->
-<!--                        <div class="modal-footer">-->
-<!--                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
-<!--                            <input type="hidden" name="action" value="blockUser">-->
-<!--                            <button type="submit" class="btn btn-primary" >Block</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <!--            unblock user -->-->
-<!--            <div class="modal fade" id="modalUnBlock--><?php //echo $item['id'] ?><!--" role="dialog">-->
-<!--                <div class="modal-dialog modal-lg">-->
-<!--                    <div class="modal-content">-->
-<!--                        <div class="modal-header">-->
-<!--                            <button type="button" class="close" data-dismiss="modal">&times;</button>-->
-<!--                            <h4 class="modal-title">Confirmation</h4>-->
-<!--                        </div>-->
-<!--                        <div class="modal-body">-->
-<!--                            <p>Do you really want to unblock user --><?php //echo  $item['login']?><!--?</p>-->
-<!--                        </div>-->
-<!--                        <div class="modal-footer">-->
-<!--                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
-<!--                            <input type="hidden" name="action" value="unblockUser">-->
-<!--                            <button type="submit" class="btn btn-primary" >Block</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <!--            delete user -->-->
-<!--            <div class="modal fade" id="modalDelete--><?php //echo $item['id'] ?><!--" role="dialog">-->
-<!--                <div class="modal-dialog modal-lg">-->
-<!--                    <div class="modal-content">-->
-<!--                        <div class="modal-header">-->
-<!--                            <button type="button" class="close" data-dismiss="modal">&times;</button>-->
-<!--                            <h4 class="modal-title">Confirmation</h4>-->
-<!--                        </div>-->
-<!--                        <div class="modal-body">-->
-<!--                            <p>Do you really want to delete user --><?php //echo  $item['login']?><!--?</p>-->
-<!--                        </div>-->
-<!--                        <div class="modal-footer">-->
-<!--                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
-<!--                            <input type="hidden" name="action" value="deleteUser">-->
-<!--                            <button type="submit" class="btn btn-primary" >Block</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!---->
-<!---->
-<!--            --><?php
-//        }
-
-
-
+<?php
     }
-
-    }
+}
 ?>

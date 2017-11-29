@@ -1,6 +1,6 @@
 <?php
     require_once("/model/database.mod.class.php");
-    include_once("/model/opennews.mod.class.php");
+    include_once("/view/opennews.mod.class.php");
 
     $cat_id = @$_REQUEST["cat"];
     $db = new MyDB();
